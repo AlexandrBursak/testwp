@@ -59,6 +59,9 @@ header.site-header {
     padding-left: 0;
     border-left: 0;
 }
+.site-header-menu ul li a {
+    color: orangered;
+}
 
 /* CONTENT */
 .content {
