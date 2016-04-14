@@ -1,0 +1,137 @@
+/*
+Theme Name: Test WP
+Author: Alex Bu
+Description: test wp for a lesson
+Version: 0.1
+Tags: clear, easy
+Text Domain: test-wp
+*/
+
+body {
+    color: #000;
+    background: #FFF;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+a {
+    color: #000;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+/* HEADER */
+header.site-header {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #808080;
+}
+.logo {
+    float: left;
+    width: 200px;
+}
+.logo h1 {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+.logo h1 a {
+    color: black;
+}
+.site-header-menu {
+    float: right;
+}
+.site-header-menu ul {}
+.site-header-menu ul li {
+    float: left;
+    margin: 5px 0 5px 10px;
+    padding: 5px 0 5px 10px;
+    border-left: 1px solid black;
+}
+.site-header-menu ul li:first-child {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0;
+}
+
+/* CONTENT */
+.content {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #808080;
+}
+/* main */
+.site-main {
+    float: left;
+    width: 66%;
+}
+article {
+    padding: 15px;
+    border-bottom: 1px solid grey;
+}
+article:last-child {
+    border: 0;
+}
+article h1 {
+    font-size: 28px;
+    padding: 0 0 10px;
+}
+article h2 {
+    font-size: 26px;
+    padding: 0 0 10px;
+}
+article .post-thumbnail {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+article .entry-content {
+    line-height: 1.5em;
+    padding: 0 0 20px;
+}
+.entry-comment {
+    margin: 15px 0 0;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+
+/* SIDEBAR */
+aside {
+    float: right;
+    width: 33%;
+}
+aside section {
+    padding: 15px;
+}
+aside section h2 {
+    font-size: 22px;
+    padding: 0 0 10px;
+}
+
+/* FOOTER */
+footer.site-footer {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #808080;
+    text-align: center;
+}
+.site-footer-menu {
+}
+.site-footer-menu ul {}
+.site-footer-menu ul li {
+    margin: 5px 0 5px 10px;
+    padding: 5px 0 5px 10px;
+    border-left: 1px solid black;
+    display: inline-block;
+}
+.site-footer-menu ul li:first-child {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0;
+}
+
