@@ -55,7 +55,7 @@ get_header(); ?>
         ?>
             <section class="not-found">
                 <header>
-                    <h1><?php _e( 'Nothing Found' ); ?></h1>
+                    <h1><?php _e( 'Nothing Found!' ); ?></h1>
                 </header>
             </section>
         <?php
