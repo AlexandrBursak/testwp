@@ -35,12 +35,14 @@ header.site-header {
     width: 200px;
 }
 .logo h1 {
-    font-size: 32px;
+    font-size: 28px;
     margin: 0;
     padding: 0;
 }
 .logo h1 a {
-    color: black;
+    color: darkred;
+    font-weight: bold;
+    text-decoration: none;
 }
 .site-header-menu {
     float: right;
